@@ -88,6 +88,7 @@
       hsl(220 27% 4%)
     );
     min-height: 100vh;
+    font-family: "Inter","Arial";
   }
 
   /* Rounded scale (maps to rounded-lg/md/sm via tokens in v4) */
