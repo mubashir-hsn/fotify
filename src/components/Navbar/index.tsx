@@ -55,9 +55,9 @@ const Navbar = () => {
             <div className="relative">
               <Sparkles
                 fill="transparent"
-                className="h-8 w-8 text-primary animate-glow-pulse"
+                className="h-8 w-8 text-primary-glow bg-transparent animate-glow-pulse"
               />
-              <div className="absolute inset-0 h-8 w-8 text-secondary animate-glow-pulse opacity-50" />
+              <div className="absolute inset-0 h-8 w-8 text-secondary-glow animate-glow-pulse opacity-50" />
             </div>
             <span className="text-2xl font-bold bg-gradient-primary bg-clip-text! text-transparent">
               Pix AI
@@ -68,13 +68,13 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-8">
             <button
               onClick={() => scrollToSection("features")}
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              className="text-foreground hover:text-primary-glow transition-colors font-medium"
             >
               Features
             </button>
             <button
               onClick={() => scrollToSection("pricing")}
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              className="text-foreground hover:text-primary-glow transition-colors font-medium"
             >
               Pricing
             </button>
@@ -111,13 +111,13 @@ const Navbar = () => {
           <div className="py-4 space-y-4">
             <button
               onClick={() => scrollToSection("features")}
-              className="block w-full text-left text-foreground hover:text-primary transition-colors font-medium"
+              className="block w-full text-left text-foreground hover:text-primary-glow transition-colors font-medium"
             >
               Features
             </button>
             <button
               onClick={() => scrollToSection("pricing")}
-              className="block w-full text-left text-foreground hover:text-primary transition-colors font-medium"
+              className="block w-full text-left text-foreground hover:text-primary-glow transition-colors font-medium"
             >
               Pricing
             </button>

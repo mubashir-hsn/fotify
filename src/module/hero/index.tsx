@@ -42,7 +42,7 @@ const Hero = () => {
             transition={{ delay: 0.2 }}
             className="inline-flex items-center space-x-2 bg-gradient-glass rounded-full px-4 py-2 mb-6 glass border border-card-border"
           >
-            <Sparkles className="h-4 w-4 text-primary" />
+            <Sparkles className="h-4 w-4 text-primary-glow" />
             <span className="text-sm font-medium">Powered by AI Magic</span>
           </motion.div>
 
@@ -50,20 +50,20 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
-            className="text-5xl lg:text-7xl font-bold leading-tight mb-6"
+            className="text-3xl lg:text-5xl font-bold leading-tight mb-6"
           >
             <span className="bg-gradient-primary bg-clip-text! text-transparent">
               Pix AI
             </span>
             <br />
-            <span className="text-foreground">The Magic Photo Editor</span>
+            <span className="text-slate-100">The Magic Photo Editor</span>
           </motion.h1>
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
-            className="text-xl text-muted-foreground mb-8 max-w-2xl"
+            className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl"
           >
             Transform your photos with AI-powered editing tools. Remove
             backgrounds, enhance quality, and create stunning visuals in
